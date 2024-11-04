@@ -2,9 +2,9 @@ body {
 
     display: grid;
     height: 100vh;
-    grid-template-rows: auto 80px 750px auto;
+    grid-template-rows: auto 750px auto;
     grid-template-columns: 750px auto;
-    text-align: center;
+    
 
 }
 
@@ -14,19 +14,15 @@ header {
     grid-column: 1 / 4;
     font-family: "Lora";
     color: brown;
+    
+    
 
 }
 
-
-
-
-
-
-
-
 .menubar {
-    background: rgb(196, 197, 195);
-    grid-column: 1/4;
+    background: rgb(248, 234, 247);
+    padding: 10px;
+    width: 100%;
 }
 
 .menu {
@@ -36,6 +32,7 @@ header {
     justify-content: space-around;
     font-family: "Itim";
     font-size: 30px;
+    
 }
 
 .menu a {
