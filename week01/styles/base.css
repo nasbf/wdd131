@@ -62,10 +62,13 @@ footer {
 
 .card {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: 3fr auto;
+    padding:0%;
+    gap: 15px;
+    margin:0%;
     width: 100%;
+    
+    
 
 }
 
@@ -76,13 +79,17 @@ footer {
     padding: 3.5rem;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(71, 111, 245, 0.4);
+    width: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+    align-content: center;
     
 }
 
 .uno {
     grid-column: 1/2;
     display: grid;
-    grid-template-columns: 50px 700px;
+    grid-template-columns: 20px 350px;
     gap: 20px;
     align-items: center;
 }
@@ -111,7 +118,7 @@ footer {
 .dos {
     grid-column: 1/2;
     display: grid;
-    grid-template-columns: 50px 400px;
+    grid-template-columns: 20px 350px;
     align-content: center;
 }
 
