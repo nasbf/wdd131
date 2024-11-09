@@ -2,7 +2,7 @@ body {
 
     display: grid;
     height: 100vh;
-    grid-template-rows: 210px 650px auto;
+    grid-template-rows: auto 550px auto;
     grid-template-columns: 750px auto;
 
 
