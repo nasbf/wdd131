@@ -96,7 +96,7 @@ footer {
 .uno {
     grid-column: 1/2;
     display: grid;
-    grid-template-columns: 20px 350px;
+    grid-template-columns: 10px 450px;
     gap: 20px;
     align-items: center;
 }
@@ -118,7 +118,7 @@ footer {
     height: auto;
     grid-column: 3/4;
     grid-row: 1/3;
-    margin-left: 150px;
+    margin-left: 180px;
     border-radius: 10px;
 }
 
@@ -159,18 +159,13 @@ footer {
 }
 
 .rightSidebar h2 {
-    margin-bottom: 100px;
-    margin-top: 50px;
+    
+    
     text-align: center;
-}
-
-.rightSidebar p {
-    margin-bottom: 100px;
 }
 
 .rightSidebar ul li {
     margin-top: 15px;
-    margin-bottom: 10px;
     text-align: center;
 }
 
