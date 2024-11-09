@@ -131,7 +131,8 @@ footer {
 .rightSidebar {
     grid-column: 2/3;
     grid-row: 1/3;
-    display: flexbox;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .rightSidebar ul {
