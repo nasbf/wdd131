@@ -64,7 +64,6 @@ footer {
     padding: 0.5rem;
     box-sizing: border-box;
 
-
 }
 
 .card {
@@ -149,8 +148,6 @@ footer {
 .rightSidebar {
     grid-column: 2/3;
     grid-row: 1/3;
-    
-    
     
 }
 
