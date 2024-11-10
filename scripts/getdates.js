@@ -8,5 +8,5 @@ const currentYear = new Date().getFullYear();
 currentYearElement.textContent = `© ${currentYear} Alexandra Suárez, Bogotá - Colombia`;
 
 const lastModifiedDate = document.lastModified;
-lastModifiedElement.textContent = `Última modificación: ${lastModifiedDate}`;
+lastModifiedElement.textContent = `Last modified: ${lastModifiedDate}`;
 
