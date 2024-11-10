@@ -58,8 +58,8 @@ nav ul li a {
 
 footer {
     text-align: center;
-    background: red;
-    color: rgb(208, 208, 248);
+    background: rgb(243, 242, 242);
+    color: rgb(9, 9, 99);
     width: 100%;
     padding: 0.5rem;
     box-sizing: border-box;
