@@ -18,7 +18,9 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 0.1rem;
 
+
 }
+
 
 header h1 {
     text-align: center;
