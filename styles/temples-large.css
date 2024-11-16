@@ -1,23 +1,42 @@
-@media only screen and (min-width: 40em) {
-    .navList {
+@media only screen and (min-width: 600px) {
+
+    header {
+
         display: flex;
-        padding: 1rem;
-        margin-top: 0rem;
-        background-color: blue;
+
     }
 
-    h1 {
-        font-size: 2em;
+    .navList {
+        display: flex;
+        position: static;
+        padding: 1rem;
+        background-color: rgb(150, 165, 147);
     }
+
 
     #menu {
         display: none;
     }
 
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    h1 {
+        font-size: 2em;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
 
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+    }
+
+    .gallery nameImg {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        font-size: 1.4em;
     }
 
 }
