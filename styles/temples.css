@@ -7,13 +7,23 @@
 
 }
 
+body {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
 header {
-    display: flex;
+
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
     background-color: rgb(234, 247, 216);
     height: 6rem;
+
 }
 
 .active {
@@ -28,19 +38,24 @@ header {
 
 .navList {
     display: none;
-
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
     list-style-type: none;
-    gap: 1rem;
-    background: rgb(194, 214, 165);
-    padding: 4rem;
+    background-color: rgb(150, 165, 147);
     font-size: 1.2rem;
-    top: 30rem;
-    margin-top: 5rem;
+
 
 }
 
 a {
-    color: black;
+    color: rgb(12, 12, 12);
+}
+
+nav {
+    text-align: center;
 
 }
 
@@ -51,6 +66,9 @@ a {
     top: 2rem;
     right: 2rem;
     font-size: 1.5rem;
+    color: black;
+
+
 
 }
 
@@ -62,8 +80,6 @@ a {
 
 #menu::before {
     content: "☰";
-
-
 }
 
 .show {
@@ -73,26 +89,50 @@ a {
 #menu.show::before {
     content: "❎";
     position: absolute;
-    top: -1.7rem;
+    top: 5rem;
     right: 0.2rem;
+    z-index: 1000;
 
 }
 
-@media only screen and (min-width: 40em) {
-    .navList {
-        display: flex;
-        padding: 1rem;
-        margin-top: 0rem;
+img {
+    max-width: 100%;
+}
 
+main {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
 
+.gallery figure {
+    box-shadow: 0 4px 8px rgb(88, 90, 87);
+    padding: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 95%;
+    background-color: rgb(227, 228, 227);
+}
 
-    }
+.gallery figure nameImg {
+    display: block;
+    text-align: center;
 
-    #menu {
-        display: none;
-    }
+}
 
-
-
+p {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 1.5em;
+}
+footer {
+    text-align: center;
+    background: rgb(211, 231, 183);
+    color: rgb(1, 7, 1);
+    width: 100%;
+    padding: 45px 10px;
+    line-height: 0.3;
+    
 
 }

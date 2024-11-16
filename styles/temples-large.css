@@ -1,0 +1,23 @@
+@media only screen and (min-width: 40em) {
+    .navList {
+        display: flex;
+        padding: 1rem;
+        margin-top: 0rem;
+        background-color: blue;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+}
