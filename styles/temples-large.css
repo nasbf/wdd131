@@ -3,7 +3,7 @@
     header {
 
         display: flex;
-
+        font-size: larger;
     }
 
     .navList {
@@ -11,12 +11,19 @@
         position: static;
         padding: 1rem;
         background-color: rgb(150, 165, 147);
-        
+        border-radius: 6px;
+
     }
 
+    li {
+        margin: 0 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+    }
 
     #menu {
         display: none;
+
     }
 
     h2 {

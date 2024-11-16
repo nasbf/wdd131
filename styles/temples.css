@@ -28,9 +28,8 @@ header {
 
 .active {
 
-    background-color: rgb(119, 119, 118);
-    ;
-    color: rgb(246, 247, 246);
+    background-color: rgb(224, 224, 224);
+    color: black;
     border-radius: 6px;
     padding: 0.2rem;
 
@@ -65,7 +64,7 @@ nav {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: black;
 
 
