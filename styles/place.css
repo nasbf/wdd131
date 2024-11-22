@@ -1,5 +1,6 @@
 :root{
     --section-font: 1.1em;
+    --section-color: rgba(255, 255, 255, 0.705);
 
 }
 
@@ -48,6 +49,7 @@ header {
     border: 1px solid rgb(224, 224, 224);
     font-size: var(--section-font);
     padding: 1rem;
+    background: var(--section-color);
 
 }
 
@@ -56,6 +58,7 @@ header {
     border: 1px solid rgb(224, 224, 224);
     font-size: var(--section-font);
     padding: 1rem;
+    background: var(--section-color);
 
 }
 
