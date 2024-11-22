@@ -1,6 +1,6 @@
 :root{
     --section-font: 1.1em;
-    --section-color: rgba(255, 255, 255, 0.705);
+    --section-color: rgba(255, 255, 255, 0.692);
 
 }
 
@@ -42,7 +42,9 @@ header {
     background-color: rgb(252, 4, 4);
 
 }
-
+h3::first-letter{
+    font-size: 1.5em;
+}
 
 .wheather {
     text-align: center;
