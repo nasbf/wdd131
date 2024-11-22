@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "ubuntu";
 }
@@ -19,26 +20,21 @@ header {
 
 }
 
-.hero img{
+.hero img {
     background-color: rgb(25, 25, 255);
     padding-top: 2rem;
     display: flex;
     width: 100%;
     max-height: 750px;
     height: auto;
-    object-fit:cover;
-    
+    object-fit: cover;
+
 }
 
-.mention {
-    height: 3rem;
+.red {
+    height: 2rem;
     background-color: rgb(252, 4, 4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 252, 252);
-    font-size: 1.2em;
-    font-weight: 410;
+
 }
 
 
@@ -49,7 +45,8 @@ header {
     padding: 1rem;
 
 }
-.data{
+
+.data {
     text-align: center;
     border: 1px solid rgb(224, 224, 224);
     font-size: 1.1em;
