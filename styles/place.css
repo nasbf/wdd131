@@ -3,14 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-
     font-family: "ubuntu";
-
-
 }
-
 
 
 header {
@@ -37,15 +32,24 @@ header {
 
 .mention {
     height: 3rem;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: bisque;
+    color: rgb(196, 2, 2);
+    font-size: 1.2em;
+    font-weight: 410;
 }
 
 
 .wheather {
+    text-align: center;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: 1.1em;
+    padding: 1rem;
+
+}
+.data{
     text-align: center;
     border: 1px solid rgb(224, 224, 224);
     font-size: 1.1em;
