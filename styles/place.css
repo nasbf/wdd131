@@ -1,3 +1,8 @@
+:root{
+    --section-font: 1.1em;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +46,7 @@ header {
 .wheather {
     text-align: center;
     border: 1px solid rgb(224, 224, 224);
-    font-size: 1.1em;
+    font-size: var(--section-font);
     padding: 1rem;
 
 }
@@ -49,7 +54,7 @@ header {
 .data {
     text-align: center;
     border: 1px solid rgb(224, 224, 224);
-    font-size: 1.1em;
+    font-size: var(--section-font);
     padding: 1rem;
 
 }
