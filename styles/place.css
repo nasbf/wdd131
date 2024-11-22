@@ -32,11 +32,11 @@ header {
 
 .mention {
     height: 3rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 4, 4);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(196, 2, 2);
+    color: rgb(255, 252, 252);
     font-size: 1.2em;
     font-weight: 410;
 }
