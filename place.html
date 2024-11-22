@@ -9,45 +9,42 @@
     <meta name="description"
         content="Assignment week 03, Apply the concepts from the learning activities in the design and development of a web page.">
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <script src="scripts/place.js" defer></script>
-    <script src="scripts/place.js" defer></script>
+
 
 </head>
 
 <body>
-    
-        <header>
-            <h1>
-                COLOMBIA
-            </h1>
-        </header>
+
+    <header>
+        <h1>
+            COLOMBIA
+        </h1>
+    </header>
     <main>
-        
+
         <div class="hero">
             <picture>
-                <source srcset="images/colombia-large.jpg" media="min-width: 1000px">
-                <source srcset="images/colombia-medium.jpg" media="min-width: 500px">
-                <img src="images/colombia-small.jpg" alt="Colombia" media="min-width: 100px">
+                <source srcset="images/colombia-large.webp" media="(min-width: 900px)">
+                <source srcset="images/colombia-medium.webp" media="(min-width: 600px)">
+                <img src="images/colombia-small.webp" alt="Colombia">
             </picture>
         </div>
-        <div class ="mention">
+        <div class="mention">
             <p>
                 Photo of Christian Holzinger - Unsplash
             </p>
         </div>
-        
 
-        
         <section class="data">
-            
             <h3>Data</h3>
             <ul>
-                
                 <li>Area: 1,142 million km²</li>
                 <li>Capital: Bogotá</li>
                 <li>Language: Spanish</li>
@@ -59,12 +56,13 @@
         </section>
         <section class="wheather">
             <h3>Wheather</h3>
-            <img src="images/wheathericon.svg" alt="Wheather Icon">
+            <!-- <source srcset="images/wheathericon.svg" media="(min-width: 500px)"> -->
+            <img srcset="images/wheathericon.svg" alt="Wheather Icon"size="(max-width: 400px)"> 
             <ul>
-                <li>Temperature: </li>
+                <li>Temperature: 12℃</li>
                 <li>Conditions: </li>
-                <li>Wind: </li>
-                <li>Wind Chill: </li>
+                <li>Wind: 3km/h </li>
+                <li id="windchill"></li>
             </ul>
         </section>
 
