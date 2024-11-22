@@ -75,6 +75,10 @@ li {
 .wheather img {
     width: 150px;
 }
+.temperature::after, .windchill::after{
+    content: "℃";
+    
+}
 
 footer {
     background-color: rgb(235, 235, 235);

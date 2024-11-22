@@ -20,4 +20,4 @@ function calculateWindchill(temp, wind) {
 
 let temp = 13;
 let wind = 3;
-result.textContent = `Windchill: ${calculateWindchill(temp, wind)}℃`;
+result.textContent = `Windchill: ${calculateWindchill(temp, wind)}`;
