@@ -79,7 +79,7 @@ const temples = [
 		location: "Bogotá, Distrito Capital",
 		dedicated: "1999, Abril, 24",
 		area: 53500,
-		imageUrl: "images/bogota.jpg",
+		imageUrl: "images/bogota.webp",
 		//"https://churchofjesuschristtemples.org/bogota-colombia-temple/photographs/#Gallery-12"
 	},
 	{
@@ -87,7 +87,7 @@ const temples = [
 		location: "Barranquilla Atlantico Colombia",
 		dedicated: "2018, Diciembre, 9",
 		area: 25349,
-		imageUrl: "images/barranquillaTemple.jpg"
+		imageUrl: "images/barranquilla-temple.webp"
 		//"https://churchofjesuschristtemples.org/barranquilla-colombia-temple/photographs/#Official-9"
 	},
 	{
@@ -95,7 +95,7 @@ const temples = [
 		location: "Provo, Utah United States",
 		dedicated: "2016, March, 20",
 		area: 85084,
-		imageUrl: "images/provoTemple.jpg"
+		imageUrl: "images/provoTemple.webp"
 		//"https://churchofjesuschristtemples.org/provo-city-center-temple/photographs/#Official-13"
 
 	},
