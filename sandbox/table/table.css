@@ -1,0 +1,31 @@
+:root {
+    --head: black;
+    --head2: grey;
+    --border: rgb(175, 175, 175);
+    --zebra: rgb(236, 240, 248);
+    --shadow: rgb(177, 177, 247);
+}
+
+table {
+
+    border: 1px solid var(--border);
+    width: 600px;
+    height: 200px;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px var(--shadow);
+}
+
+thead {
+    background-color: var(--head);
+    color: white;
+    height: 80px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+    border: 1px solid var(--border)
+}
+
+.highlight {
+    background-color: var(--head2);
+}
