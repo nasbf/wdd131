@@ -4,7 +4,7 @@ let numvisits = Number(window.localStorage.getItem("visitlist")) || 0;
 if (numvisits !== 0) {
     visitsDisplay.textContent = numvisits;
 } else {
-    visitsDisplay.textContent = `Any Form.`;
+    visitsDisplay.textContent = `This is your first review`;
 }
 numvisits++;
 
