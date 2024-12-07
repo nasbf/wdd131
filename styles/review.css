@@ -1,0 +1,25 @@
+
+main{
+    margin-top: 12%;
+    background-color: rgba(255, 255, 255, 0.692);
+     
+}
+h1, h2, p{
+    text-align: center;
+    font-family: "andika";
+    color: rgb(5, 54, 44);
+    width: 100%;
+    
+}
+
+footer{ 
+    
+    background-color: rgb(5, 54, 44);;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    
+}
+footer p {
+    color:white;
+}
