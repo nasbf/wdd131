@@ -1,0 +1,16 @@
+@media only screen and (min-width: 500px) {
+
+    body {
+        width: 100%;
+    }
+
+    .reviewForm {
+        width: 400px;
+        margin-left: 430px;
+
+    }
+
+    footer {
+        max-width: none;
+    }
+}

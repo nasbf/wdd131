@@ -23,13 +23,13 @@
         <h1>Product Review</h1>
     </header>
     <main>
-        
+
         <form method="get" action="review.html" class="reviewForm">
             <fieldset>
 
                 <label> Product Name * </label>
                 <select id="productName" name="productName" required>
-                    <option value="" disable selected>Choose a Product </option>
+                    <option value="" disabled selected>Choose a Product </option>
 
                 </select>
             </fieldset>
@@ -72,10 +72,10 @@
             </fieldset>
 
             <fieldset>
-                <legend>Written Review (optional)</legend>
+                <label>Written Review (optional)</label>
                 <textarea id="userText" name="text" rows="5" cols="40"></textarea><br><br>
 
-                <legend>Your Name (optional)</legend>
+                <label>Your Name (optional)</label>
                 <input type="text" name="userName"><br>
             </fieldset>
             <input type="submit" value="Post my Review">
@@ -87,3 +87,5 @@
         <p id="lastModified"></p>
     </footer>
 </body>
+
+</html>
